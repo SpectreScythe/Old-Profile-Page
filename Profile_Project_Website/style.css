@@ -1,0 +1,477 @@
+/*----------------------------------------------------------------------------*/
+/* All Elements styling---No classes or IDs */
+/*----------------------------------------------------------------------------*/
+body {
+  margin: 0;
+  font-family: Merriweather;
+}
+
+a {
+  font-family: Montserrat;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: .5s;
+}
+
+a:hover {
+  letter-spacing: 5px;
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#underline {
+  width: 100%;
+  height: 2.5px;
+  margin-top: 15px;
+  align-self: flex-end;
+  left: -200px;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .250s ease-Out;
+  bottom: 0;
+}
+
+.button:hover #underline {
+  left: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Head Part */
+/*----------------------------------------------------------------------------*/
+.Head {
+  background-color: cadetblue;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Title Part */
+/*----------------------------------------------------------------------------*/
+.Top_Container {
+  margin: 0;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.Welcome {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  font-family: Sacramento;
+  font-weight: bold;
+  font-size: 100px;
+  color: #333333;
+}
+
+.Right_cloud {
+  position: absolute;
+  top: 125px;
+  right: 150px;
+  height: 80px;
+  width: 200px;
+}
+
+.Spectre {
+  font-family: Sacramento;
+  font-size: 75px;
+  color: #333333;
+}
+
+.Student {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  font-family: Merriweather;
+  font-size: 35px;
+  color: #333333;
+}
+
+.Left_cloud {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  height: 80px;
+  width: 200px;
+}
+
+.Top_hr {
+  border: 2px #333333 solid;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Profile Part */
+/*----------------------------------------------------------------------------*/
+.Profile_Container {
+  padding-top: 80px;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.Profile_Pic {
+  width: 200px;
+  height: 200px;
+  border: 3px #333333 solid;
+  border-radius: 100%;
+}
+
+.Profile_Title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+  font-size: 50px;
+  color: #333333;
+}
+
+.Profile_Bio {
+  padding-top: 10px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333333;
+}
+
+.Profile_Pun {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 80px;
+  color: #333333;
+  margin: 0;
+}
+
+.Profile_Link {
+  color: #333333;
+  text-decoration: none;
+}
+
+.Profile_Link:hover {
+  color: white;
+}
+
+.Profile_hr {
+  border: 2px grey solid;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Main/Body Part */
+/*----------------------------------------------------------------------------*/
+.Main {
+  background-color: #333333;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Background Part */
+/*----------------------------------------------------------------------------*/
+.Background_Container {
+  padding-left: 250px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 80%;
+  text-align: center;
+}
+
+.Background_img {
+  width: 250px;
+  height: 250px;
+  border: 3px grey solid;
+  border-radius: 100%;
+  float: right;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.Background_Title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  font-family: Montserrat;
+  font-size: 50px;
+  color: #009494;
+  text-align: left;
+}
+
+.Background_Text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+
+.Background_Links {
+  color: white;
+  text-decoration: none;
+}
+
+.Background_Links:hover {
+  color: #009494;
+}
+
+.Background_hr {
+  width: 10%;
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: #009494;
+  text-align: center;
+  margin-left: 600px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Skills Part */
+/*----------------------------------------------------------------------------*/
+.Skills_Container {
+  padding-left: 250px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 80%;
+  text-align: center;
+}
+
+.Skills_img {
+  width: 250px;
+  height: 250px;
+  border: 3px grey solid;
+  border-radius: 100%;
+  float: left;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.Skills_Title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  font-family: Montserrat;
+  font-size: 50px;
+  color: #009494;
+  text-align: left;
+}
+
+.Skills_Text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+
+.Skills_Links {
+  color: white;
+  text-decoration: none;
+}
+
+.Skills_Links:hover {
+  color: #009494;
+}
+
+.Skills_hr {
+  width: 10%;
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: #009494;
+  text-align: center;
+  margin-left: 600px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Education Part */
+/*----------------------------------------------------------------------------*/
+.Education_Container {
+  padding-left: 250px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 80%;
+  text-align: center;
+}
+
+.Education_img {
+  width: 250px;
+  height: 250px;
+  border: 3px grey solid;
+  border-radius: 100%;
+  float: right;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.Education_Title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  font-family: Montserrat;
+  font-size: 50px;
+  color: #009494;
+  text-align: left;
+}
+
+.Education_Institues {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+
+.Education_Links {
+  color: white;
+  text-decoration: none;
+}
+
+.Education_Links:hover {
+  color: #009494;
+}
+
+.Education_hr {
+  width: 10%;
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: #009494;
+  text-align: center;
+  margin-left: 600px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Hobbies Part */
+/*----------------------------------------------------------------------------*/
+.Hobbies_Container {
+  padding-left: 250px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 80%;
+  text-align: center;
+}
+
+.Hobbies_img {
+  width: 250px;
+  height: 250px;
+  border: 3px grey solid;
+  border-radius: 100%;
+  float: left;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.Hobbies_Title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  font-family: Montserrat;
+  font-size: 50px;
+  color: #009494;
+  text-align: left;
+}
+
+.Hobbies_Text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+
+.Hobbies_Links {
+  color: white;
+  text-decoration: none;
+}
+
+.Hobbies_Links:hover {
+  color: #009494;
+}
+
+.Hobbies_hr {
+  border: 2px grey solid;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Footer Part */
+/*----------------------------------------------------------------------------*/
+.Footer {
+  margin: 0;
+  background-color: cadetblue;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Contact Part */
+/*----------------------------------------------------------------------------*/
+.Contact_Me_Container {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.Contact_img {
+  width: 200px;
+  height: 200px;
+  border: 3px grey solid;
+  border-radius: 100%;
+}
+
+.Contact_Title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 50px;
+  color: #333333;
+}
+
+.Contact_Links {
+  font-family: Montserrat;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.Contact_Link {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.Contact_Link:hover {
+  color: white;
+}
+
+.Contact_Text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  color: #333333;
+}
+
+.Contact_hr {
+  border: 2px #333333 solid;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Copyright Part */
+/*----------------------------------------------------------------------------*/
+.Copyright {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 50px;
+  color: #333333;
+}
